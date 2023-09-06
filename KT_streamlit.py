@@ -22,7 +22,7 @@ def main():
     # functions are created to perform an action like loading a dataset, in this case also includes
     # data preprocessing as the Label Encoder
     def load_data():
-        data = pd.read_csv("/Users/azamb9/Documents/Advanced Analytics/Team meetings/KT/mushrooms.csv")
+        data = pd.read_csv("mushrooms.csv")
         label = LabelEncoder()
         for col in data.columns:
             data[col] = label.fit_transform(data[col])
