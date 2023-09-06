@@ -1,0 +1,16 @@
+numpy
+pandas
+pyarrow
+pandarallel
+matplotlib
+seaborn
+scikit-learn
+snowflake-connector-python[pandas]
+cerberus-python-client
+boxsdk[jwt]
+boto3
+botocore
+fsspec
+s3fs
+jupyter
+sqlparse
